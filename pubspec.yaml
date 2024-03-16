@@ -1,0 +1,63 @@
+name: portfolio
+description: "MyFaduGame Portfolio"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  google_fonts: ^4.0.3
+
+  #Third Party Dependencies
+  flutter_form_builder: ^7.7.0
+  animated_text_kit: ^4.2.2
+  email_validator: ^2.0.1
+  marqueer: ^1.4.0
+  http: ^0.13.5
+  url_launcher: ^6.0.17
+  flutter_advanced_drawer: ^1.3.4
+  neopop: ^1.0.2
+  flutter_staggered_grid_view: ^0.7.0
+  flutter_svg: ^2.0.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/fonts/
+    - assets/gif/
+    - assets/images/
+    - assets/svg/
+
+  fonts:
+    - family: BungeeHairline
+      fonts:
+        - asset: assets/fonts/BungeeHairline-Regular.ttf
+
+    - family: YujiBoku
+      fonts:
+        - asset: assets/fonts/YujiBoku-Regular.ttf
+
+    - family: Arimo
+      fonts:
+        - asset: assets/fonts/Arimo-Regular.ttf
+        - asset: assets/fonts/Arimo-Bold.ttf
+        - asset: assets/fonts/Arimo-Italic.ttf
+        - asset: assets/fonts/Arimo-Medium.ttf
+        - asset: assets/fonts/Arimo-MediumItalic.ttf
+        - asset: assets/fonts/Arimo-SemiBold.ttf
+        - asset: assets/fonts/Arimo-SemiBOldItalic.ttf
