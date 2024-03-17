@@ -198,7 +198,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                 // child:
                                 Center(
                               child: Text(
-                                'hi, i\'m MyFaduGame',
+                                'hi, I\'m MyFaduGame',
                                 style: GoogleFonts.openSans(
                                   textStyle: const TextStyle(
                                     color: Color.fromARGB(255, 255, 255, 255),
