@@ -25,7 +25,7 @@ jobs:
       run: flutter config --enable-web
 
     - name: Build web
-      run: flutter build web --web-renderer html
+      run: flutter build web
 
     - name: Set up AWS CLI
       uses: aws-actions/configure-aws-credentials@v2
@@ -35,4 +35,4 @@ jobs:
         aws-region: <your-aws-region>
 
     - name: Upload to Amazon S3
-      run: aws s3 sync build/web s3://myfadugame --delete
+      run: aws s3 sync build/web s3://myfadugame
