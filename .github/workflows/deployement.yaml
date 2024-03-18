@@ -16,10 +16,10 @@ jobs:
     - name: Set up Flutter
       uses: subosito/flutter-action@v2
       with:
-        flutter-version: '4.x'
+        flutter-version: '3.x'
 
     - name: Install dependencies
-      run: flutter packages pub get
+      run: flutter pub get
 
     - name: Build web
       run: flutter build web --web-renderer html --release
