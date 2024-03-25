@@ -42,6 +42,7 @@ flutter:
     - assets/gif/
     - assets/images/
     - assets/svg/
+    - assets/pdf/
 
   fonts:
     - family: BungeeHairline

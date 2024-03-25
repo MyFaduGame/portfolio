@@ -5,6 +5,9 @@ import 'package:flutter_advanced_drawer/flutter_advanced_drawer.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:marqueer/marqueer.dart';
 import 'package:neopop/widgets/buttons/neopop_button/neopop_button.dart';
+import 'package:url_launcher/url_launcher.dart';
+
+//Local Imports
 import 'package:portfolio/routes.dart';
 import 'package:portfolio/theme/app_colors.dart';
 import 'package:portfolio/theme/app_images.dart';
@@ -13,7 +16,6 @@ import 'package:portfolio/utils/footer_util.dart';
 import 'package:portfolio/widget/about_me.dart';
 import 'package:portfolio/widget/drawer.dart';
 import 'package:portfolio/widget/work.dart';
-import 'package:url_launcher/url_launcher.dart';
 
 //Local Imports
 
